@@ -9,3 +9,4 @@ public class ComparatorByCaloriesAsc implements Comparator<Workout> {
         return Integer.compare(rhs.getCaloriesBurned(), lhs.getCaloriesBurned());
     }
 }
+
