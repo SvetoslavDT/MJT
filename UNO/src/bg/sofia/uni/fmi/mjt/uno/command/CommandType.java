@@ -1,0 +1,6 @@
+package bg.sofia.uni.fmi.mjt.uno.command;
+
+public enum CommandType {
+    REGISTER, LOGIN, LOGOUT, LIST_GAMES, CREATE_GAME, JOIN, START, SHOW_HAND, SHOW_LAST_CARD, ACCEPT_EFFECT,
+    PLAY, PLAY_JOKER, SHOW_PLAYED_CARDS, LEAVE, SPECTATE, DRAW, SUMMARY
+}

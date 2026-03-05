@@ -1,0 +1,890 @@
+MESSAGE: Unrecognizable command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Unrecognizable command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.checkUsernamePassword(CommandFactory.java:272)
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.registerCorrectness(CommandFactory.java:89)
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:48)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:29)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Unknown command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Unknown command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:68)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:29)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Unknown command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Unknown command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:67)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:29)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Unknown command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Unknown command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:67)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:29)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Unknown commandddd
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Unknown commandddd
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:67)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:29)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Player with name Spens already exists
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.repositories.exceptions.PlayerAlreadyExists: Player with name Spens already exists
+	at bg.sofia.uni.fmi.mjt.uno.repositories.PlayerRepository.addPlayer(PlayerRepository.java:27)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.RegisterCommand.execute(RegisterCommand.java:25)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:53)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Player <username> does not exist
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.PlayerDoesNotExist: Player <username> does not exist
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.LoginCommand.execute(LoginCommand.java:30)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:53)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Client needs to be logged to log out
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.nio.exceptions.ClientNotLogged: Client needs to be logged to log out
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.LogoutCommand.execute(LogoutCommand.java:22)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:53)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Player with name Spens already exists
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.repositories.exceptions.PlayerAlreadyExists: Player with name Spens already exists
+	at bg.sofia.uni.fmi.mjt.uno.repositories.PlayerRepository.addPlayer(PlayerRepository.java:27)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.RegisterCommand.execute(RegisterCommand.java:25)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:53)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Unknown command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Unknown command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:65)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:29)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Unknown command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Unknown command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:65)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:29)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Game already exists
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.repositories.exceptions.GameAlreadyExists: Game already exists
+	at bg.sofia.uni.fmi.mjt.uno.repositories.GameRepository.createGame(GameRepository.java:35)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.CreateGameCommand.execute(CreateGameCommand.java:35)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:53)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Game id and number of players must be numbers
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Game id and number of players must be numbers
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.createGameCorrectness(CommandFactory.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:29)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Game id and number of players must be numbers
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Game id and number of players must be numbers
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.createGameCorrectness(CommandFactory.java:141)
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:29)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Incorrect command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Incorrect command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.createGameCorrectness(CommandFactory.java:122)
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:29)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Incorrect command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Incorrect command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.createGameCorrectness(CommandFactory.java:122)
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:29)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Incorrect command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Incorrect command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.createGameCorrectness(CommandFactory.java:122)
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:29)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Incorrect command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Incorrect command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.createGameCorrectness(CommandFactory.java:122)
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:29)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Client already logged in game
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.PlayerAlreadyLogged: Client already logged in game
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.JoinCommand.execute(JoinCommand.java:40)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:53)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Client already logged in game
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.PlayerAlreadyLogged: Client already logged in game
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.JoinCommand.execute(JoinCommand.java:40)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:53)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: User "Spens" already is logged
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.PlayerWithThatUsernameAlreadyLogged: User "Spens" already is logged
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.addPlayer(Game.java:263)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.JoinCommand.execute(JoinCommand.java:46)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:53)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Client already logged in game
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.PlayerAlreadyLogged: Client already logged in game
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.JoinCommand.execute(JoinCommand.java:40)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:53)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Player "Svetoslav" not present in the game
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.PlayerNotInGame: Player "Svetoslav" not present in the game
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.throwExceptionIfPlayerNotInGame(Game.java:343)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.removePlayer(Game.java:296)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.LeaveCommand.execute(LeaveCommand.java:31)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:53)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Client already logged in game
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.PlayerAlreadyLogged: Client already logged in game
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.JoinCommand.execute(JoinCommand.java:40)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:53)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: User "Spens" already is logged
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.PlayerWithThatUsernameAlreadyLogged: User "Spens" already is logged
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.addPlayer(Game.java:263)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.JoinCommand.execute(JoinCommand.java:45)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:53)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: User "Spens" already is logged
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.PlayerWithThatUsernameAlreadyLogged: User "Spens" already is logged
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.addPlayer(Game.java:263)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.JoinCommand.execute(JoinCommand.java:45)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:53)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Player is not in game
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.nio.exceptions.ClientAlreadyLogged: Player is not in game
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.LeaveCommand.execute(LeaveCommand.java:27)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:53)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Only the game maker can start the game
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.GameMakerMissing: Only the game maker can start the game
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.StartCommand.execute(StartCommand.java:44)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:53)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Card with id 72 does not exist
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.CardIdException: Card with id 72 does not exist
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:132)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.startGame(Game.java:115)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.StartCommand.execute(StartCommand.java:47)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:53)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Player is not in game
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.nio.exceptions.ClientNotLogged: Player is not in game
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.StartCommand.execute(StartCommand.java:35)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:53)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Player is not in game
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.nio.exceptions.ClientNotLogged: Player is not in game
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.StartCommand.execute(StartCommand.java:35)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:53)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Player has to wait for his turn to play
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.PlayerNotInTurn: Player has to wait for his turn to play
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.throwExceptionIfNotPlayersTurn(Game.java:332)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:128)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayCommand.execute(PlayCommand.java:37)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+
+----------------------------------------
+MESSAGE: Unknown command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Unknown command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:65)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:31)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Card with id 4 does not exist
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.CardIdException: Card with id 4 does not exist
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:137)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayCommand.execute(PlayCommand.java:38)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player has to wait for his turn to play
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.PlayerNotInTurn: Player has to wait for his turn to play
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.throwExceptionIfNotPlayersTurn(Game.java:323)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardActionChecks(Game.java:392)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:128)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayCommand.execute(PlayCommand.java:38)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Can not play this specific card
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.WrongInGameAction: Can not play this specific card
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardActionChecks(Game.java:404)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:128)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayCommand.execute(PlayCommand.java:38)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Unrecognizable command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Unrecognizable command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.playJokerCorrectness(CommandFactory.java:211)
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:59)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:31)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player has to draw card
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.WrongInGameAction: Player has to draw card
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardActionChecks(Game.java:398)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:128)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayCommand.execute(PlayCommand.java:38)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player has to draw card
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.WrongInGameAction: Player has to draw card
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardActionChecks(Game.java:398)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:128)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayCommand.execute(PlayCommand.java:38)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Card with id 60 does not exist
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.CardIdException: Card with id 60 does not exist
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardActionChecks(Game.java:406)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:128)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayCommand.execute(PlayCommand.java:38)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Unknown command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Unknown command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:65)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:31)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player has to wait for his turn to play
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.PlayerNotInTurn: Player has to wait for his turn to play
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.throwExceptionIfNotPlayersTurn(Game.java:329)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playerDrawCard(Game.java:233)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.DrawCommand.execute(DrawCommand.java:32)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player has to wait for his turn to play
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.PlayerNotInTurn: Player has to wait for his turn to play
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.throwExceptionIfNotPlayersTurn(Game.java:329)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playerDrawCard(Game.java:233)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.DrawCommand.execute(DrawCommand.java:32)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player with name Spens already exists
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.repositories.exceptions.PlayerAlreadyExists: Player with name Spens already exists
+	at bg.sofia.uni.fmi.mjt.uno.repositories.PlayerRepository.addPlayer(PlayerRepository.java:27)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.RegisterCommand.execute(RegisterCommand.java:25)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Client needs to be logged to use this command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.nio.exceptions.ClientNotLogged: Client needs to be logged to use this command
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.CreateGameCommand.execute(CreateGameCommand.java:30)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Client needs to be logged to use this command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.nio.exceptions.ClientNotLogged: Client needs to be logged to use this command
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.JoinCommand.execute(JoinCommand.java:38)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Game with id - 94 does not exist
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.NoSuchGameExists: Game with id - 94 does not exist
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.JoinCommand.execute(JoinCommand.java:42)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Client needs to be logged to use this command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.nio.exceptions.ClientNotLogged: Client needs to be logged to use this command
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.StartCommand.execute(StartCommand.java:33)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Unknown command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Unknown command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:65)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:31)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player has to wait for his turn to play
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.PlayerNotInTurn: Player has to wait for his turn to play
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.throwExceptionIfNotPlayersTurn(Game.java:330)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardActionChecks(Game.java:399)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:128)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayCommand.execute(PlayCommand.java:38)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Pending effect must be accepted first
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.PendingEffectNotAccepted: Pending effect must be accepted first
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardActionChecks(Game.java:403)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:128)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayCommand.execute(PlayCommand.java:38)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Can not play this specific card
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.WrongInGameAction: Can not play this specific card
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardActionChecks(Game.java:412)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:128)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayCommand.execute(PlayCommand.java:38)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Unknown command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Unknown command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:65)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:31)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Cannot invoke "bg.sofia.uni.fmi.mjt.uno.cards.types.Card.getCardType()" because "card" is null
+STACKTRACE:
+java.lang.NullPointerException: Cannot invoke "bg.sofia.uni.fmi.mjt.uno.cards.types.Card.getCardType()" because "card" is null
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.throwExceptionIfCardShouldChangeColor(Game.java:356)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:131)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayJokerCommand.execute(PlayJokerCommand.java:41)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player has to draw card
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.WrongInGameAction: Player has to draw card
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardActionChecks(Game.java:405)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:128)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayJokerCommand.execute(PlayJokerCommand.java:41)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player has to draw card
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.WrongInGameAction: Player has to draw card
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardActionChecks(Game.java:405)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:128)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayCommand.execute(PlayCommand.java:38)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Cannot draw
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.WrongInGameAction: Cannot draw
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playerDrawCard(Game.java:235)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.DrawCommand.execute(DrawCommand.java:32)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Cannot invoke "bg.sofia.uni.fmi.mjt.uno.cards.types.Card.getCardType()" because "card" is null
+STACKTRACE:
+java.lang.NullPointerException: Cannot invoke "bg.sofia.uni.fmi.mjt.uno.cards.types.Card.getCardType()" because "card" is null
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.throwExceptionIfCardShouldChangeColor(Game.java:356)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:131)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayJokerCommand.execute(PlayJokerCommand.java:41)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player has to wait for his turn to play
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.PlayerNotInTurn: Player has to wait for his turn to play
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.throwExceptionIfNotPlayersTurn(Game.java:334)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardActionChecks(Game.java:403)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:128)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayCommand.execute(PlayCommand.java:38)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Unknown command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Unknown command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:65)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:31)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Card with id 8 does not exist
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.CardIdException: Card with id 8 does not exist
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardActionChecks(Game.java:411)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:128)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayCommand.execute(PlayCommand.java:38)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: null
+STACKTRACE:
+java.util.NoSuchElementException
+	at java.base/java.util.ArrayList.getFirst(ArrayList.java:440)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.endGame(Game.java:148)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.removePlayer(Game.java:315)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.endGame(Game.java:150)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.removePlayer(Game.java:315)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.checkIfPlayerWins(Game.java:392)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:138)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayCommand.execute(PlayCommand.java:38)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player is not in game
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.nio.exceptions.ClientAlreadyLogged: Player is not in game
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.ShowHandCommand.execute(ShowHandCommand.java:34)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player is not in game
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.nio.exceptions.ClientAlreadyLogged: Player is not in game
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.ShowHandCommand.execute(ShowHandCommand.java:34)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:55)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:142)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Unknown command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Unknown command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:64)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:28)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player is not in game
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.nio.exceptions.ClientNotLogged: Player is not in game
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.StartCommand.execute(StartCommand.java:35)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player has to wait for his turn to play
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.PlayerNotInTurn: Player has to wait for his turn to play
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.throwExceptionIfNotPlayersTurn(Game.java:332)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardActionChecks(Game.java:397)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:126)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayCommand.execute(PlayCommand.java:39)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Can not play this specific card
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.WrongInGameAction: Can not play this specific card
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardActionChecks(Game.java:410)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:126)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayCommand.execute(PlayCommand.java:39)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Card with id 8 does not exist
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.CardIdException: Card with id 8 does not exist
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardActionChecks(Game.java:405)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:126)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayCommand.execute(PlayCommand.java:39)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Card with id 103 does not exist
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.CardIdException: Card with id 103 does not exist
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardActionChecks(Game.java:405)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:126)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayJokerCommand.execute(PlayJokerCommand.java:41)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player has to draw card
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.WrongInGameAction: Player has to draw card
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardActionChecks(Game.java:403)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:126)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayCommand.execute(PlayCommand.java:39)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Unknown command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Unknown command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:64)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:28)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Unknown command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Unknown command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:64)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:28)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Unrecognizable command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Unrecognizable command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.checkSize(CommandFactory.java:248)
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.playCorrectness(CommandFactory.java:179)
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:57)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:28)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Pending effect must be accepted first
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.PendingEffectNotAccepted: Pending effect must be accepted first
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardActionChecks(Game.java:401)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:126)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayCommand.execute(PlayCommand.java:39)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Unknown command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Unknown command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:64)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:28)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player has to wait for his turn to play
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.PlayerNotInTurn: Player has to wait for his turn to play
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.throwExceptionIfNotPlayersTurn(Game.java:332)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardActionChecks(Game.java:397)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:126)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayCommand.execute(PlayCommand.java:39)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: null
+STACKTRACE:
+java.util.NoSuchElementException
+	at java.base/java.util.ArrayList.getFirst(ArrayList.java:440)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.endGame(Game.java:146)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.removePlayer(Game.java:313)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.endGame(Game.java:148)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.removePlayer(Game.java:313)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.LeaveCommand.execute(LeaveCommand.java:31)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player is not in game
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.nio.exceptions.ClientAlreadyLogged: Player is not in game
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.LeaveCommand.execute(LeaveCommand.java:27)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player is not in game
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.nio.exceptions.ClientAlreadyLogged: Player is not in game
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.ShowHandCommand.execute(ShowHandCommand.java:34)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player is not in game
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.nio.exceptions.ClientAlreadyLogged: Player is not in game
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.SpectateCommand.execute(SpectateCommand.java:27)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Game id must be a number
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Game id must be a number
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.summaryCorrectness(CommandFactory.java:242)
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:63)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:28)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player is not in game
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.nio.exceptions.ClientAlreadyLogged: Player is not in game
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.LeaveCommand.execute(LeaveCommand.java:27)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Game id must be a number
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Game id must be a number
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.summaryCorrectness(CommandFactory.java:242)
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:63)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:28)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Game id must be a number
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Game id must be a number
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.summaryCorrectness(CommandFactory.java:242)
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:63)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:28)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Can't join because the game status is started
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.InvalidGameStatusForAction: Can't join because the game status is started
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.addPlayer(Game.java:254)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.JoinCommand.execute(JoinCommand.java:45)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player has to wait for his turn to play
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.exception.PlayerNotInTurn: Player has to wait for his turn to play
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.throwExceptionIfNotPlayersTurn(Game.java:332)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardActionChecks(Game.java:397)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.playCardAction(Game.java:126)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.PlayCommand.execute(PlayCommand.java:39)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: null
+STACKTRACE:
+java.util.NoSuchElementException
+	at java.base/java.util.ArrayList.getFirst(ArrayList.java:440)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.endGame(Game.java:146)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.removePlayer(Game.java:313)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.endGame(Game.java:148)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.removePlayer(Game.java:313)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.LeaveCommand.execute(LeaveCommand.java:31)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player is not in game
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.nio.exceptions.ClientAlreadyLogged: Player is not in game
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.ShowHandCommand.execute(ShowHandCommand.java:34)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player is not in game
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.nio.exceptions.ClientAlreadyLogged: Player is not in game
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.ShowHandCommand.execute(ShowHandCommand.java:34)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Client needs to be logged to use this command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.nio.exceptions.ClientNotLogged: Client needs to be logged to use this command
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.ShowHandCommand.execute(ShowHandCommand.java:31)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Unknown command
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.command.exceptions.IncorrectCommand: Unknown command
+	at bg.sofia.uni.fmi.mjt.uno.command.CommandFactory.create(CommandFactory.java:64)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:28)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: null
+STACKTRACE:
+java.util.NoSuchElementException
+	at java.base/java.util.ArrayList.getFirst(ArrayList.java:440)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.endGame(Game.java:146)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.removePlayer(Game.java:317)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.endGame(Game.java:148)
+	at bg.sofia.uni.fmi.mjt.uno.game.Game.removePlayer(Game.java:317)
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.LeaveCommand.execute(LeaveCommand.java:31)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
+MESSAGE: Player is not in game
+STACKTRACE:
+bg.sofia.uni.fmi.mjt.uno.nio.exceptions.ClientAlreadyLogged: Player is not in game
+	at bg.sofia.uni.fmi.mjt.uno.command.commands.ShowHandCommand.execute(ShowHandCommand.java:34)
+	at bg.sofia.uni.fmi.mjt.uno.pipeline.CommandHandler.handleCommand(CommandHandler.java:52)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.read(Server.java:140)
+	at bg.sofia.uni.fmi.mjt.uno.nio.Server.main(Server.java:60)
+----------------------------------------
